@@ -119,6 +119,29 @@ export default function Home() {
               </button>
             </div>
 
+            {/* Discord message */}
+            <div className="rounded-2xl bg-[#1e1f22] border border-white/[0.06] p-3 mb-5">
+              <div className="flex items-center gap-2 mb-2">
+                <div className="w-7 h-7 rounded-full bg-gradient-to-br from-blue-400 to-indigo-600 flex items-center justify-center text-[10px] font-bold text-white flex-shrink-0">
+                  D
+                </div>
+                <div className="flex items-center gap-1.5 flex-wrap">
+                  <span className="text-xs font-semibold text-white">DiCaprio</span>
+                  <span className="text-[9px] bg-zinc-700 text-zinc-300 px-1.5 py-0.5 rounded font-medium">LKSM</span>
+                  <span className="text-[10px] text-zinc-600">05:29</span>
+                </div>
+              </div>
+              <div className="text-[11px] text-zinc-300 leading-relaxed space-y-0.5 pl-9">
+                <p className="font-medium text-white">It&apos;s monday fellas 🫡</p>
+                <p>Good luck this week</p>
+                <p>Remember</p>
+                <p>If you take a lot of trades, you are gay</p>
+                <p>If your SL is more than 1% of ur acc size, ur also gay</p>
+                <p>so be fr</p>
+                <p>dont gamble</p>
+              </div>
+            </div>
+
             {/* Column header */}
             {stats.length > 0 && (
               <div className="flex items-center px-5 mb-2 text-[10px] uppercase tracking-widest text-zinc-700">
