@@ -22,7 +22,7 @@ const rules = [
   {
     number: '03',
     title: 'Proof Required',
-    description: 'You must provide a screenshot or screen recording showing the trade entry, account balance and result.',
+    description: 'Submit a before & after screenshot or video showing the trade entry and result. Final result only will not be accepted.',
     icon: '📸',
     color: 'text-emerald-400',
     border: 'border-emerald-500/20',
