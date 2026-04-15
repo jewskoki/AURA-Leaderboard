@@ -8,6 +8,7 @@ import WeekSelector from '@/components/WeekSelector'
 import Leaderboard from '@/components/Leaderboard'
 import AddTradeModal from '@/components/AddTradeModal'
 import PrizesPanel from '@/components/PrizesPanel'
+import RulesPanel from '@/components/RulesPanel'
 import { PlusIcon } from '@/components/Icons'
 
 const ADMIN_PASSWORD = 'Baptiste2005?'
@@ -99,9 +100,12 @@ export default function Home() {
           <p className="text-sm text-zinc-500 mt-1 tracking-widest uppercase">Leaderboard</p>
         </div>
 
-        {/* Two-column layout */}
-        <div className="flex flex-col lg:flex-row gap-8 items-start">
-          {/* Left — leaderboard */}
+        {/* Three-column layout */}
+        <div className="flex flex-col lg:flex-row gap-6 items-start">
+          {/* Left — rules */}
+          <RulesPanel />
+
+          {/* Center — leaderboard */}
           <div className="flex-1 min-w-0">
             {/* Controls */}
             <div className="flex items-center justify-between mb-6 flex-wrap gap-4">
